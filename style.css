@@ -1,16 +1,17 @@
 
+#fondo{
+  background-color: hsl(240,100%,90%);
+}
+
 #title{
-    text-align:center;
-  }
+  text-align:center;
+}
+
   
-  #fondo{
-    background-color: hsl(240,100%,90%);
-  }
-  
-  #description{
-    text-align:center;
-    font-size:18px;
-  }
+#description{
+  text-align:center;
+  font-size:18px;
+}
   
   
   
