@@ -1,21 +1,57 @@
-<script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<body id="fondo"> 
-   <h1 id="title">Encuesta</h1>
-  <em><p id="description">Intoduzca los siguientes datos con total sinceridad</p></em>
-  <form id="survey-form">
-    <label> Nombre </label>
-    <input required id="name" type="text" name="name" placeholder="Escriba su nombre">  </input>
-
-  
-    
-    
-    
-    
-    
-    
-    
-    
-  </form>
-  
-</body>
+  <body id="fondo"> 
+    <h1 id="title">Encuesta</h1>
+   <em><p id="description">Intoduzca los siguientes datos con total sinceridad</p></em>
+   <form id="survey-form">
+     <strong><label id="name-label"> Nombre </label></strong>
+     
+     <input required id="name" type="text" name="name"           placeholder="Escriba su nombre">  </input>
+   
+   <strong><label id="email-label"> Correo</label></strong> 
+   
+   <input required id="email" type="email" name="email"          placeholder="Escriba su correo">  </input>
+ 
+ <strong><label id="number-label"> Edad</label></strong> 
+   
+   <input required id="number" type="number" min="10" max="40" name="age" placeholder="Coloque su edad">  </input>
+     
+ 
+   <strong><label id="ocupacion"> Ocupación</label></strong> 
+ 
+  <select name="select" id="dropdown">
+     <option value="value1"  selected disabled>Seleccione su ocupación</option>  
+     <option value="value2">Trabajador</option> 
+     <option value="value3" >Estudiante</option>
+     <option value="value4">Jubilado</option>
+     <option value="value5">Prefiero no decir</option>
+     <option value="value6">Otro</option>
+ 
+ </select>
+ 
+ 
+ <strong><p> ¿Recomienda este formulario?</p></strong>
+ 
+ <input class="puntos" type="radio" value="value7" name="indoor-outdoor" >Por supuesto</input>
+ 
+ <input class="puntos" type="radio" value="value8" name="indoor-outdoor" >Si, pero le faltan cositas</input>
+ 
+ <input class="puntos" type="radio" value="value9"name="indoor-outdoor" >Nunca</input>
+ 
+   
+ <strong><p> ¿Cual es tu deporte favorito?</p></strong>
+ 
+ <input class="cuadros" type="checkbox" value="value10" name="checkbox" >Football</input>
+ 
+ <input class="cuadros" type="checkbox" value="value11" name="indoor-outdoor" >Baseball</input>
+ 
+ <input class="cuadros" type="checkbox" value="value12"name="indoor-outdoor" >Basketball</input>
+     
+ <strong><p> ¿Tienes alguna sugerencia?</p></strong>
+ <textarea type="text" id="comentario"></textarea>
+ 
+ <div>
+   <strong><button type="submit" id="submit" >Enviar</button></strong>
+ </div>    
+   </form>
+ </body>

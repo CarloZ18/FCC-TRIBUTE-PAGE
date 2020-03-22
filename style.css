@@ -1,16 +1,123 @@
 
-#fondo{
-  background-color: hsl(240,100%,90%);
-}
-
 #title{
   text-align:center;
 }
 
+#fondo{
+  background:linear-gradient(90deg, #ccffff, #109dfa);
+  margin:auto;
+  padding:auto;
+  display:fixed;
   
+}
+
 #description{
   text-align:center;
   font-size:18px;
+}
+
+#survey-form{
+  display:fixed;
+  text-align:justify;
+  padding:10px 20px 10px 20px;
+  background: url(https://image.freepik.com/foto-gratis/fondo-texturizado-papel-mullberry-blanco-primer-plano-detalle_7190-317.jpg);
+  margin:auto 100px;
+  height:auto;
+  width:auto;
+  border-radius:2%;
+}
+
+#name{
+  width: calc(100%);
+  height:20px;
+  margin:  10px auto;
+  padding: auto;
+  border-radius:2%;
+
+}
+
+#name-label{
+  margin:auto 10px;
+  padding: auto;
+  text-align:left;
+  display: fixed;
+}
+
+#email-label{
+  display:fixed;
+  margin:auto 10px;
+  padding: auto;
+  text-align:left;
+  display:fixed;
+ 
+
+}
+
+#number-label{
+  display:fixed;
+  margin:auto 10px;
+  padding: auto;
+  text-align:left;
+  display:fixed;
+  
+
+}
+
+#email{
+  width: calc(100%);
+  height:20px;
+  margin:10px auto;
+  padding: auto ;
+  border-radius:2%;
+  
+}
+
+#number{
+  width: calc(100%);
+  height:20px;
+  margin:10px auto;
+  padding: auto;
+  border-radius:2%;
+  
+    
+
+}
+
+#ocupacion{
+   margin:auto 10px;
+  text-align:justify;
+  
+}
+#dropdown{
+  width: calc(100%);
+  height:25px;
+  margin:10px auto;
+  border-radius:3%;
+}
+
+.puntos{  
+ margin: 10px 10px;
+ padding:auto; 
+}
+
+.cuadros{
+ margin: 10px 10px;
+ padding:auto; 
+}
+
+#comentario{
+  width: calc(100%);
+  height:150px;
+  margin:10px auto;
+  padding: auto;
+  border-radius:2%;
+  display:auto;
+}
+  
+#submit{
+  width: calc(100%);
+  background:linear-gradient(90deg, #109dfa, #ccffff);
+  
 }
   
   
