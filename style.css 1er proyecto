@@ -1,0 +1,37 @@
+#title{
+  text-align:center;
+}
+  #main {
+    background: linear-gradient(145deg, #ccffff, 
+      #ffcccc);
+      max-width: 100%;
+      height: auto;
+     
+    padding:10px 5px 15px 5px;
+    margin:auto;
+    }
+  
+    #title {
+      text-align: center;
+  }
+  #image {
+      padding:50px 50px 50px 50px;
+      margin:auto;
+      background-color: white;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      
+       }
+    
+    #img-caption {
+      text-align: center;
+    }
+    
+    #tribute-info{
+      font-family:monospace;
+      font-size:15px;
+      text-align:justify;
+    }
+    
+  
