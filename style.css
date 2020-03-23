@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #title{
   text-align:center;
 }
@@ -124,3 +125,39 @@
   
     
     
+=======
+#main {
+  background: linear-gradient(145deg, #ccffff, #ffcccc);
+
+  padding: 10px 5px 15px 5px;
+  margin: 20px 20px 20px 20px;
+}
+
+#title {
+  text-align: center;
+}
+#image {
+  padding: 50px 50px 50px 50px;
+  margin: 20px 20px 20px 40px;
+  background-color: white;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: justify;
+  padding: 0 20px;
+  margin: 0 20px;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+>>>>>>> 04e9b6a070a7b9de2ba1c92654ddf4ee2052683b
