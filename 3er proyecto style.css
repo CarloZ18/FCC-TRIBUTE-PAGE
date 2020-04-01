@@ -1,0 +1,209 @@
+#header{
+    z-index:1;
+    position:fixed;
+    margin:-30px auto;
+   background: linear-gradient(35deg,#000000, #ffffff);
+   width: calc(89%) 
+ }
+ 
+ #nav-bar{
+   text-align:right;
+   background: linear-gradient(35deg,#000000, #ffffff);
+   margin:-10px auto;
+    width:100%;
+ }
+ 
+ #fondo{
+   margin:20px 50px;
+   padding:10px 10px;
+  background:linear-gradient(-500deg,#000000, #ffffff);
+ }
+ 
+ #header-img{
+   margin: -115px -160px;
+   transform:scale(0.3);
+  
+ }
+ 
+ .nav-link{
+   color:black;
+   text-decoration:none;
+   padding: 20px 30px;
+   font-size:18px;
+   font-family:courier;
+ }
+ 
+ h3{
+   font-family:arial;
+   font-size:30px;
+ }
+ 
+ @media (max-height:800px) {
+ h3{
+     font-size:20px;
+   }
+ }
+ 
+ p{
+   font-family:arial;
+   font-size:35px;
+ }
+ @media (max-height:800px) {
+ p{
+     font-size:17px;
+   }
+ }
+ 
+ .ventajas{
+   text-align:justify;
+   margin:100px 10px 100px 10px;
+ }
+ 
+ .producto{
+   text-align:center;
+   margin: 60px auto;
+ }
+ 
+ #img-seguridad{
+   width:200px;
+ }
+ 
+ @media (max-width:800px) {
+ #img-seguridad{
+     width:150px;
+   }
+ 
+ }
+ #img-calidad{
+   width:200px;
+ }
+ 
+ @media (max-width:800px) {
+ #img-calidad{
+     width:150px;
+   }
+   
+ }
+ 
+ #img-tiempo{
+   width:200px;
+ }
+   
+   @media (max-width:800px) {
+ #img-tiempo{
+     width:150px;
+   }
+     
+ }
+ 
+ #video{
+   width:100%;
+ }
+ 
+ #form{
+   position:relative;
+   text-align:center;
+   margin:90px auto;
+ }
+ 
+ #submit{
+   background:linear-gradient(5deg,#000000, #ffffff);
+ }
+ 
+ #precios{
+   text-align:center;
+   font-size:25px;
+ }
+ 
+ #box-container {
+     height: 500px;
+   display:flex;
+   text-align:center;
+ 
+   }
+ 
+   #box-1 {
+     background-color: dodgerblue;
+     width: 50%;
+     height: 20%;
+   }
+ 
+   #box-2 {
+     background-color: dodgerblue;
+     width: 50%;
+     height: 24%;
+     margin:0px 10px;
+   }
+ 
+ #box-3 {
+   background-color: dodgerblue;
+     width: 50%;
+     height: 24%;
+ }
+ 
+ .iphone11{
+   text-align:center;
+   font-size:20px;
+   background:linear-gradient(5deg,#000000, #ffffff);
+   margin:-0px auto;
+ }
+ 
+ .iphone12{
+   text-align:center;
+   font-size:20px;
+   background:linear-gradient(5deg,#000000, #ffffff);
+   margin:-0px auto;
+ }
+ 
+ .iphone13{
+   text-align:center;
+   font-size:20px;
+   background:linear-gradient(5deg,#000000, #ffffff);
+   margin:-0px auto;
+ }
+ 
+ .precio11{
+   text-align:center;
+   font-size:25px;
+   background-color:dodgerblue;
+   margin:20px auto;
+ }
+ 
+ .precio12{
+   text-align:center;
+   font-size:25px;
+   background-color:dodgerblue;
+   margin:30px auto;
+ }
+ 
+ .precio13{
+   text-align:center;
+   font-size:25px;
+   background-color:dodgerblue;
+   margin:30px auto;
+ }
+ 
+ #enviar1{
+   text-align:center;
+ }
+ 
+ #enviar2{
+   text-align:center;
+   margin:60px auto;
+ }
+ 
+ #enviar3{
+   text-align:center;
+   margin:60px auto;
+ }
+ 
+ #pedir{
+  color:black;
+   text-decoration:none;
+   font-size:18px;
+ }
+ 
+ #final:hover {
+   background:linear-gradient(5deg,#000000, #ffffff);
+   margin:auto 60px;
+ }
